@@ -20,12 +20,12 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddCors(options => {
+builder.Services.AddCors(options => { 
     options.AddPolicy("AllowAll",
         b => b.AllowAnyHeader()
         .AllowAnyOrigin()
         .AllowAnyMethod());
-});
+});                             // allow all users to use it (different servers) - even even except this compter
 
 builder.Host.UseSerilog((context, loggerConfiguration) 
     => loggerConfiguration.WriteTo.Console().ReadFrom.
@@ -49,7 +49,7 @@ app.UseSerilogRequestLogging();
 
 app.UseHttpsRedirection();
 
-app.UseCors("AllowAll");
+app.UseCors("AllowAll"); // allow all users to use it (different servers) - even even except this compter
 
 app.UseAuthorization();
 

@@ -9,10 +9,10 @@ namespace HotelListingAPI.Data
 
         }
 
-        public DbSet<Hotel> Hotels { get; set; }
+        public DbSet<Hotel> Hotels { get; set; } // contract between app and database
         public DbSet<Country> Countries { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder) //populating DB
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Country>().HasData(

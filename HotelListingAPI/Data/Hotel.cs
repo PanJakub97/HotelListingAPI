@@ -10,7 +10,7 @@ namespace HotelListingAPI.Data
         public double Rating { get; set; }
 
 
-        [ForeignKey(nameof(CountryId))]
+        [ForeignKey(nameof(CountryId))] // "CoutryId" is less safe, when sth will change - VS won't clamor
         public int CountryId { get; set; }
         public Country Country { get; set; }
     }
