@@ -30,7 +30,7 @@ namespace HotelListingAPI.Controllers
         public async Task<ActionResult<IEnumerable<HotelDto>>> GetHotels()
         {
             var hotels = await _hotelsRepository.GetAllAsync();
-            return Ok(_mapper.Map<List<HotelDto>>(hotels));
+            return Ok(_mapper.Map<List<HotelDto>>(hotels)); // 200 ok
         }
 
         // GET: api/Hotels/5
@@ -54,7 +54,7 @@ namespace HotelListingAPI.Controllers
         {
             if (id != hotelDto.Id)
             {
-                return BadRequest();
+                return BadRequest("Enter correct Id");
             }
 
             var hotel = await _hotelsRepository.GetAsync(id);
