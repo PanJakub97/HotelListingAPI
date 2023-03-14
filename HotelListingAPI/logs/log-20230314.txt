@@ -1,0 +1,38 @@
+2023-03-14 20:26:47.113 +01:00 [INF] Now listening on: https://localhost:7236
+2023-03-14 20:26:47.157 +01:00 [INF] Now listening on: http://localhost:5246
+2023-03-14 20:26:47.160 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-14 20:26:47.161 +01:00 [INF] Hosting environment: Development
+2023-03-14 20:26:47.162 +01:00 [INF] Content root path: C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI
+2023-03-14 20:26:59.710 +01:00 [INF] HTTP POST /api/Account/login responded 401 in 3456.4552 ms
+2023-03-14 21:26:25.200 +01:00 [INF] Now listening on: https://localhost:7236
+2023-03-14 21:26:25.222 +01:00 [INF] Now listening on: http://localhost:5246
+2023-03-14 21:26:25.223 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-14 21:26:25.224 +01:00 [INF] Hosting environment: Development
+2023-03-14 21:26:25.225 +01:00 [INF] Content root path: C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI
+2023-03-14 21:26:49.204 +01:00 [INF] HTTP POST /api/Account/login responded 200 in 2289.9366 ms
+2023-03-14 21:28:02.731 +01:00 [INF] Now listening on: https://localhost:7236
+2023-03-14 21:28:02.752 +01:00 [INF] Now listening on: http://localhost:5246
+2023-03-14 21:28:02.754 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-14 21:28:02.755 +01:00 [INF] Hosting environment: Development
+2023-03-14 21:28:02.755 +01:00 [INF] Content root path: C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI
+2023-03-14 21:28:07.906 +01:00 [INF] Now listening on: https://localhost:7236
+2023-03-14 21:28:07.930 +01:00 [INF] Now listening on: http://localhost:5246
+2023-03-14 21:28:07.932 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-14 21:28:07.932 +01:00 [INF] Hosting environment: Development
+2023-03-14 21:28:07.933 +01:00 [INF] Content root path: C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI
+2023-03-14 21:28:28.399 +01:00 [INF] HTTP POST /api/Account/login responded 401 in 1081.1167 ms
+2023-03-14 21:29:40.352 +01:00 [INF] HTTP POST /api/Account/register responded 400 in 29.8531 ms
+2023-03-14 21:29:43.901 +01:00 [INF] HTTP POST /api/Account/register responded 400 in 8.2564 ms
+2023-03-14 21:29:56.721 +01:00 [INF] HTTP POST /api/Account/register responded 400 in 1.0147 ms
+2023-03-14 21:30:03.178 +01:00 [INF] HTTP POST /api/Account/register responded 400 in 0.8172 ms
+2023-03-14 21:30:07.601 +01:00 [INF] HTTP POST /api/Account/register responded 400 in 0.7300 ms
+2023-03-14 21:30:14.952 +01:00 [INF] HTTP POST /api/Account/register responded 200 in 280.4609 ms
+2023-03-14 21:30:37.002 +01:00 [INF] HTTP POST /api/Account/login responded 400 in 6.2151 ms
+2023-03-14 21:30:40.791 +01:00 [INF] HTTP POST /api/Account/login responded 400 in 0.7599 ms
+2023-03-14 21:30:54.265 +01:00 [INF] HTTP POST /api/Account/login responded 200 in 149.3020 ms
+2023-03-14 21:34:00.182 +01:00 [INF] Now listening on: https://localhost:7236
+2023-03-14 21:34:00.204 +01:00 [INF] Now listening on: http://localhost:5246
+2023-03-14 21:34:00.206 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-14 21:34:00.207 +01:00 [INF] Hosting environment: Development
+2023-03-14 21:34:00.207 +01:00 [INF] Content root path: C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI
+2023-03-14 21:34:15.492 +01:00 [INF] HTTP POST /api/Account/login responded 200 in 1293.4355 ms
