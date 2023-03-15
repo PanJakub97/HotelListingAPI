@@ -78,7 +78,6 @@ namespace HotelListingAPI.Repository
             .Union(userClaims).Union(roleClaims);
 
             //create token
-
             var token = new JwtSecurityToken(
                 issuer: _configuration["JwtSettings:Issuer"],
                 audience: _configuration["JwtSettings:Audience"],

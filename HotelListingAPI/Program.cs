@@ -51,12 +51,10 @@ builder.Services.AddScoped<ICountriesRepository, CountriesRepository>();        
 builder.Services.AddScoped<IHotelsRepository, HotelsRepository>();
 builder.Services.AddScoped<IAuthManager, AuthManager>();
 
-builder.Services.AddAuthentication(options =>
-{
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme; //bearer
+builder.Services.AddAuthentication(options => {
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme; // "Bearer"
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-}).AddJwtBearer(options =>
-{
+}).AddJwtBearer(options => {
     options.TokenValidationParameters = new TokenValidationParameters
     {
         ValidateIssuerSigningKey = true,
@@ -69,6 +67,7 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:Key"]))
     };
 });
+
 
 var app = builder.Build();
 
@@ -85,6 +84,7 @@ app.UseHttpsRedirection();
 
 app.UseCors("AllowAll"); // allow all users to use it (different servers) - even even except this compter
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
