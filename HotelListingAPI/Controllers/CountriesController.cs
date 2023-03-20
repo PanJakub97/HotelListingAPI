@@ -10,6 +10,7 @@ using HotelListingAPI.Models.Country;
 using AutoMapper;
 using HotelListingAPI.Contracts;
 using Microsoft.AspNetCore.Authorization;
+using HotelListingAPI.Exceptions;
 
 namespace HotelListingAPI.Controllers
 {
@@ -45,8 +46,7 @@ namespace HotelListingAPI.Controllers
 
             if (country == null)
             {
-                _logger.LogWarning($"Record foud in {nameof(GetCountry)} with Id: {id}.");
-                return NotFound();
+                throw new NotFoundException(nameof(GetCountry), id);
             }
 
             var countryDto = _mapper.Map<CountryDto>(country);
@@ -71,7 +71,7 @@ namespace HotelListingAPI.Controllers
 
             if (country == null)
             {
-                return NotFound();
+                throw new NotFoundException(nameof(GetCountry), id);
             }
 
             _mapper.Map(updateCountryDto, country);
@@ -116,7 +116,7 @@ namespace HotelListingAPI.Controllers
             var country = await _countriesRepository.GetAsync(id);
             if (country == null)
             {
-                return NotFound();
+                throw new NotFoundException(nameof(GetCountry), id);
             }
 
             await _countriesRepository.DeleteAsync(id);
