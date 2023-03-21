@@ -95,6 +95,11 @@ builder.Services.AddResponseCaching(options =>
     options.UseCaseSensitivePaths = true;
 });
 
+//builder.Services.AddControllers().AddOData(options =>
+//{
+//    options.Select().Filter().OrderBy();
+//});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
