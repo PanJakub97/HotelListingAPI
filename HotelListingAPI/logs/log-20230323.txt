@@ -1,0 +1,28 @@
+2023-03-23 20:45:54.893 +01:00 [INF] Now listening on: https://localhost:7236
+2023-03-23 20:45:54.955 +01:00 [INF] Now listening on: http://localhost:5246
+2023-03-23 20:45:54.959 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-23 20:45:54.960 +01:00 [INF] Hosting environment: Development
+2023-03-23 20:45:54.962 +01:00 [INF] Content root path: C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI
+2023-03-23 20:46:23.999 +01:00 [INF] Now listening on: https://localhost:7236
+2023-03-23 20:46:24.070 +01:00 [INF] Now listening on: http://localhost:5246
+2023-03-23 20:46:24.076 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-23 20:46:24.080 +01:00 [INF] Hosting environment: Development
+2023-03-23 20:46:24.082 +01:00 [INF] Content root path: C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI
+2023-03-23 20:47:23.245 +01:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-03-23 20:47:23.251 +01:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-03-23 20:47:23.385 +01:00 [INF] HTTP GET /api/v1/Countries responded 200 in 5594.0163 ms
+2023-03-23 20:48:31.602 +01:00 [INF] Now listening on: https://localhost:7236
+2023-03-23 20:48:31.653 +01:00 [INF] Now listening on: http://localhost:5246
+2023-03-23 20:48:31.659 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-23 20:48:31.661 +01:00 [INF] Hosting environment: Development
+2023-03-23 20:48:31.662 +01:00 [INF] Content root path: C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI
+2023-03-23 20:49:17.680 +01:00 [INF] Now listening on: https://localhost:7236
+2023-03-23 20:49:17.736 +01:00 [INF] Now listening on: http://localhost:5246
+2023-03-23 20:49:17.742 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-23 20:49:17.744 +01:00 [INF] Hosting environment: Development
+2023-03-23 20:49:17.746 +01:00 [INF] Content root path: C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI
+2023-03-23 20:50:57.515 +01:00 [INF] Now listening on: https://localhost:7236
+2023-03-23 20:50:57.571 +01:00 [INF] Now listening on: http://localhost:5246
+2023-03-23 20:50:57.576 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-23 20:50:57.577 +01:00 [INF] Hosting environment: Development
+2023-03-23 20:50:57.579 +01:00 [INF] Content root path: C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI

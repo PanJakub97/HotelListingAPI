@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Data\obj\Debug\net7.0\HotelListingAPI.Data.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Data\obj\Debug\net7.0\HotelListingAPI.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Data\obj\Debug\net7.0\HotelListingAPI.Data.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Data\obj\Debug\net7.0\HotelListingAPI.Data.AssemblyInfo.cs
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Data\obj\Debug\net7.0\HotelListingAPI.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Data\bin\Debug\net7.0\HotelListingAPI.Data.deps.json
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Data\bin\Debug\net7.0\HotelListingAPI.Data.dll
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Data\bin\Debug\net7.0\HotelListingAPI.Data.pdb
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Data\obj\Debug\net7.0\HotelListingAPI.Data.dll
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Data\obj\Debug\net7.0\refint\HotelListingAPI.Data.dll
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Data\obj\Debug\net7.0\HotelListingAPI.Data.pdb
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Data\obj\Debug\net7.0\ref\HotelListingAPI.Data.dll

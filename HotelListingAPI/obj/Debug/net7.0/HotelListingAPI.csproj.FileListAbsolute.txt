@@ -15,7 +15,6 @@ C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListing
 C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\obj\Debug\net7.0\HotelListingAPI.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\obj\Debug\net7.0\HotelListingAPI.AssemblyInfo.cs
 C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\obj\Debug\net7.0\HotelListingAPI.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\obj\Debug\net7.0\HotelListingAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\obj\Debug\net7.0\HotelListingAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\obj\Debug\net7.0\staticwebassets\msbuild.HotelListingAPI.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.HotelListingAPI.props
@@ -302,3 +301,8 @@ C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListing
 C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\bin\Debug\net7.0\Microsoft.OData.Edm.dll
 C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\bin\Debug\net7.0\Microsoft.OData.ModelBuilder.dll
 C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\bin\Debug\net7.0\Microsoft.Spatial.dll
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\bin\Debug\net7.0\HotelListingAPI.Core.dll
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\bin\Debug\net7.0\HotelListingAPI.Data.dll
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\bin\Debug\net7.0\HotelListingAPI.Core.pdb
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\bin\Debug\net7.0\HotelListingAPI.Data.pdb
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\obj\Debug\net7.0\HotelListingAPI.MvcApplicationPartsAssemblyInfo.cs

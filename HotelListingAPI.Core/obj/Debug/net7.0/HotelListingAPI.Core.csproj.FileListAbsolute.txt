@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Core\obj\Debug\net7.0\HotelListingAPI.Core.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Core\obj\Debug\net7.0\HotelListingAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Core\obj\Debug\net7.0\HotelListingAPI.Core.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Core\obj\Debug\net7.0\HotelListingAPI.Core.AssemblyInfo.cs
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Core\obj\Debug\net7.0\HotelListingAPI.Core.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Core\bin\Debug\net7.0\HotelListingAPI.Core.deps.json
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Core\bin\Debug\net7.0\HotelListingAPI.Core.dll
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Core\bin\Debug\net7.0\HotelListingAPI.Core.pdb
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Core\bin\Debug\net7.0\HotelListingAPI.Data.dll
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Core\bin\Debug\net7.0\HotelListingAPI.Data.pdb
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Core\obj\Debug\net7.0\HotelListingAPI.Core.csproj.CopyComplete
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Core\obj\Debug\net7.0\HotelListingAPI.Core.dll
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Core\obj\Debug\net7.0\refint\HotelListingAPI.Core.dll
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Core\obj\Debug\net7.0\HotelListingAPI.Core.pdb
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI.Core\obj\Debug\net7.0\ref\HotelListingAPI.Core.dll
