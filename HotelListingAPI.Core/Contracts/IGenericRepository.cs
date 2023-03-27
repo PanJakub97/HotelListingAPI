@@ -13,7 +13,7 @@ namespace HotelListingAPI.Core.Contracts
         Task<TResult> AddAsync<TSource, TResult>(TSource source);
         Task DeleteAsync(int id);
         Task UpdateAsync(T entity);
-        //Task UpdateAsync<TSource>(int id, TSource source) where TSource : IBaseDto;
+        Task UpdateAsync<TSource>(int id, TSource source) where TSource : IBaseDto;
         Task<bool> Exists(int id);
     }
 }
