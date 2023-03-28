@@ -306,3 +306,7 @@ C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListing
 C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\bin\Debug\net7.0\HotelListingAPI.Core.pdb
 C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\bin\Debug\net7.0\HotelListingAPI.Data.pdb
 C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\obj\Debug\net7.0\HotelListingAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\bin\Debug\net7.0\HealthChecks.SqlServer.dll
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll

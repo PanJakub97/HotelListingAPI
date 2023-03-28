@@ -19,3 +19,16 @@
 2023-03-28 20:30:47.341 +02:00 [INF] Application started. Press Ctrl+C to shut down.
 2023-03-28 20:30:47.342 +02:00 [INF] Hosting environment: Development
 2023-03-28 20:30:47.345 +02:00 [INF] Content root path: C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI
+2023-03-28 21:29:31.161 +02:00 [INF] Now listening on: https://localhost:7236
+2023-03-28 21:29:31.221 +02:00 [INF] Now listening on: http://localhost:5246
+2023-03-28 21:29:31.225 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-28 21:29:31.227 +02:00 [INF] Hosting environment: Development
+2023-03-28 21:29:31.229 +02:00 [INF] Content root path: C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI
+2023-03-28 21:30:03.330 +02:00 [INF] HTTP GET //databasehealthcheck responded 404 in 55.8044 ms
+2023-03-28 21:30:22.737 +02:00 [INF] HTTP GET /databasehealthcheck/swagger/index.html responded 404 in 6.5959 ms
+2023-03-28 21:30:32.126 +02:00 [INF] HTTP GET /databasehealthcheck/swagger/index.html responded 404 in 6.0116 ms
+2023-03-28 21:30:38.789 +02:00 [INF] HTTP GET /databasehealthcheck responded 200 in 1929.8957 ms
+2023-03-28 21:30:39.286 +02:00 [INF] HTTP GET /favicon.ico responded 404 in 0.2091 ms
+2023-03-28 21:30:47.758 +02:00 [INF] HTTP GET /databasehealthcheck responded 200 in 39.9600 ms
+2023-03-28 21:30:50.217 +02:00 [INF] HTTP GET /healthcheck responded 200 in 5.0816 ms
+2023-03-28 21:31:14.413 +02:00 [INF] HTTP GET /healthcheck responded 200 in 1.1022 ms

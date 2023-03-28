@@ -2,6 +2,23 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "AspNetCore.HealthChecks.SqlServer/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "3.0.1",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/HealthChecks.SqlServer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/HealthChecks.SqlServer.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "AutoMapper/12.0.0": {
         "type": "package",
         "dependencies": {
@@ -1491,6 +1508,56 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Diagnostics.HealthChecks/7.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "7.0.4",
+          "Microsoft.Extensions.Hosting.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Options": "7.0.1"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/7.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore/7.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.4",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "7.0.4",
+          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "7.0.4"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.FileProviders.Abstractions/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -1547,23 +1614,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Hosting.Abstractions/3.1.8": {
+      "Microsoft.Extensions.Hosting.Abstractions/7.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8",
-          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.8"
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "7.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll": {
+          "lib/net7.0/Microsoft.Extensions.Hosting.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll": {
+          "lib/net7.0/Microsoft.Extensions.Hosting.Abstractions.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Identity.Core/7.0.4": {
@@ -4451,6 +4520,22 @@
     }
   },
   "libraries": {
+    "AspNetCore.HealthChecks.SqlServer/6.0.2": {
+      "sha512": "Af7ws27DnZZ4bKCiEREm7emSAKEtIiYirEAkI0ixFgK1fwJ99jmMnPC+kU01zfqn3FyCO/gZOUO7WbyVvTPpFg==",
+      "type": "package",
+      "path": "aspnetcore.healthchecks.sqlserver/6.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aspnetcore.healthchecks.sqlserver.6.0.2.nupkg.sha512",
+        "aspnetcore.healthchecks.sqlserver.nuspec",
+        "icon.png",
+        "lib/net6.0/HealthChecks.SqlServer.dll",
+        "lib/net6.0/HealthChecks.SqlServer.xml",
+        "lib/netstandard2.0/HealthChecks.SqlServer.dll",
+        "lib/netstandard2.0/HealthChecks.SqlServer.xml"
+      ]
+    },
     "AutoMapper/12.0.0": {
       "sha512": "0Rmg0zI5AFu1O/y//o9VGyhxKjhggWpk9mOA1tp0DEVx40c61bs+lnQv+0jUq8XbniF7FKgIVvI1perqiMtLrA==",
       "type": "package",
@@ -6379,6 +6464,59 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Diagnostics.HealthChecks/7.0.4": {
+      "sha512": "RoMSPV9Ldm0Y+8V7QWeS9T2LRACAu1+r54Qar96hHKrqzUXpXIkQeHEfJ/xIupgJ1KdRv7ojPyz6GkctPd+a3g==",
+      "type": "package",
+      "path": "microsoft.extensions.diagnostics.healthchecks/7.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
+        "lib/net462/Microsoft.Extensions.Diagnostics.HealthChecks.xml",
+        "lib/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
+        "lib/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.xml",
+        "microsoft.extensions.diagnostics.healthchecks.7.0.4.nupkg.sha512",
+        "microsoft.extensions.diagnostics.healthchecks.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/7.0.4": {
+      "sha512": "fdV7kKzrgMB4yIVygGmdMCLDAE2t48baWCo4mVpxL1rkiyLmZ90eTW/ozsvZ7yx6E5cDXrBWQV0qO3vOP0sJNA==",
+      "type": "package",
+      "path": "microsoft.extensions.diagnostics.healthchecks.abstractions/7.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.xml",
+        "microsoft.extensions.diagnostics.healthchecks.abstractions.7.0.4.nupkg.sha512",
+        "microsoft.extensions.diagnostics.healthchecks.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore/7.0.4": {
+      "sha512": "GC4d0v2HjjM65NpvTxk5YsDu69jd4of80r/yh5hJDDZ83jRf8CuaY/pU92yEqv/FGqFf6H61L33dorzXXgRQVw==",
+      "type": "package",
+      "path": "microsoft.extensions.diagnostics.healthchecks.entityframeworkcore/7.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll",
+        "lib/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.xml",
+        "microsoft.extensions.diagnostics.healthchecks.entityframeworkcore.7.0.4.nupkg.sha512",
+        "microsoft.extensions.diagnostics.healthchecks.entityframeworkcore.nuspec"
+      ]
+    },
     "Microsoft.Extensions.FileProviders.Abstractions/7.0.0": {
       "sha512": "NyawiW9ZT/liQb34k9YqBSNPLuuPkrjMgQZ24Y/xXX1RoiBkLUdPMaQTmxhZ5TYu8ZKZ9qayzil75JX95vGQUg==",
       "type": "package",
@@ -6460,20 +6598,33 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Hosting.Abstractions/3.1.8": {
-      "sha512": "7ZJUKwPipkDvuv2KJPZ3r01wp2AWNMiYH+61i0dL89F7QICknjKpWgLKLpTSUYFgl77S3b4264I6i4HzDdrb2A==",
+    "Microsoft.Extensions.Hosting.Abstractions/7.0.0": {
+      "sha512": "43n9Je09z0p/7ViPxfRqs5BUItRLNVh5b6JH40F2Agkh2NBsY/jpNYTtbCcxrHCsA3oRmbR6RJBzUutB4VZvNQ==",
       "type": "package",
-      "path": "microsoft.extensions.hosting.abstractions/3.1.8",
+      "path": "microsoft.extensions.hosting.abstractions/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Hosting.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Hosting.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.Hosting.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.xml",
-        "microsoft.extensions.hosting.abstractions.3.1.8.nupkg.sha512",
-        "microsoft.extensions.hosting.abstractions.nuspec"
+        "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "microsoft.extensions.hosting.abstractions.7.0.0.nupkg.sha512",
+        "microsoft.extensions.hosting.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "Microsoft.Extensions.Identity.Core/7.0.4": {
@@ -12552,6 +12703,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "AspNetCore.HealthChecks.SqlServer >= 6.0.2",
       "HotelListingAPI.Core >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Versioning >= 5.0.0",
       "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer >= 5.0.0",
@@ -12559,6 +12711,7 @@
       "Microsoft.AspNetCore.OpenApi >= 7.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.4",
+      "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore >= 7.0.4",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.5",
       "Serilog.AspNetCore >= 6.1.0",
       "Serilog.Expressions >= 3.4.1",
@@ -12614,6 +12767,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "AspNetCore.HealthChecks.SqlServer": {
+            "target": "Package",
+            "version": "[6.0.2, )"
+          },
           "Microsoft.AspNetCore.Mvc.Versioning": {
             "target": "Package",
             "version": "[5.0.0, )"
@@ -12637,6 +12794,10 @@
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.4, )"
+          },
+          "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.4, )"
           },

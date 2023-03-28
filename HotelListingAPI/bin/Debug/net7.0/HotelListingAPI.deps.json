@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "HotelListingAPI/1.0.0": {
         "dependencies": {
+          "AspNetCore.HealthChecks.SqlServer": "6.0.2",
           "HotelListingAPI.Core": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Versioning": "5.0.0",
           "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": "5.0.0",
@@ -15,6 +16,7 @@
           "Microsoft.AspNetCore.OpenApi": "7.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.4",
+          "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": "7.0.4",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.5",
           "Serilog.AspNetCore": "6.1.0",
           "Serilog.Expressions": "3.4.1",
@@ -23,6 +25,18 @@
         },
         "runtime": {
           "HotelListingAPI.dll": {}
+        }
+      },
+      "AspNetCore.HealthChecks.SqlServer/6.0.2": {
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.0.1",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "7.0.4"
+        },
+        "runtime": {
+          "lib/net6.0/HealthChecks.SqlServer.dll": {
+            "assemblyVersion": "6.0.2.0",
+            "fileVersion": "6.0.2.0"
+          }
         }
       },
       "AutoMapper/12.0.0": {
@@ -1152,6 +1166,41 @@
           }
         }
       },
+      "Microsoft.Extensions.Diagnostics.HealthChecks/7.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "7.0.4",
+          "Microsoft.Extensions.Hosting.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Options": "7.0.1"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.423.11903"
+          }
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/7.0.4": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.423.11903"
+          }
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore/7.0.4": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.4",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "7.0.4",
+          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "7.0.4"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll": {
+            "assemblyVersion": "7.0.4.0",
+            "fileVersion": "7.0.423.11903"
+          }
+        }
+      },
       "Microsoft.Extensions.FileProviders.Abstractions/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "7.0.0"
@@ -1165,12 +1214,11 @@
         }
       },
       "Microsoft.Extensions.FileSystemGlobbing/7.0.0": {},
-      "Microsoft.Extensions.Hosting.Abstractions/3.1.8": {
+      "Microsoft.Extensions.Hosting.Abstractions/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "7.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "7.0.0"
+          "Microsoft.Extensions.FileProviders.Abstractions": "7.0.0"
         }
       },
       "Microsoft.Extensions.Identity.Core/7.0.4": {
@@ -1799,7 +1847,7 @@
       "Serilog.Extensions.Hosting/5.0.1": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
-          "Microsoft.Extensions.Hosting.Abstractions": "3.1.8",
+          "Microsoft.Extensions.Hosting.Abstractions": "7.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
           "Serilog": "2.12.0",
           "Serilog.Extensions.Logging": "3.1.0"
@@ -2753,6 +2801,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AspNetCore.HealthChecks.SqlServer/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Af7ws27DnZZ4bKCiEREm7emSAKEtIiYirEAkI0ixFgK1fwJ99jmMnPC+kU01zfqn3FyCO/gZOUO7WbyVvTPpFg==",
+      "path": "aspnetcore.healthchecks.sqlserver/6.0.2",
+      "hashPath": "aspnetcore.healthchecks.sqlserver.6.0.2.nupkg.sha512"
+    },
     "AutoMapper/12.0.0": {
       "type": "package",
       "serviceable": true,
@@ -3145,6 +3200,27 @@
       "path": "microsoft.extensions.dependencymodel/7.0.0",
       "hashPath": "microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.Diagnostics.HealthChecks/7.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RoMSPV9Ldm0Y+8V7QWeS9T2LRACAu1+r54Qar96hHKrqzUXpXIkQeHEfJ/xIupgJ1KdRv7ojPyz6GkctPd+a3g==",
+      "path": "microsoft.extensions.diagnostics.healthchecks/7.0.4",
+      "hashPath": "microsoft.extensions.diagnostics.healthchecks.7.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/7.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fdV7kKzrgMB4yIVygGmdMCLDAE2t48baWCo4mVpxL1rkiyLmZ90eTW/ozsvZ7yx6E5cDXrBWQV0qO3vOP0sJNA==",
+      "path": "microsoft.extensions.diagnostics.healthchecks.abstractions/7.0.4",
+      "hashPath": "microsoft.extensions.diagnostics.healthchecks.abstractions.7.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore/7.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GC4d0v2HjjM65NpvTxk5YsDu69jd4of80r/yh5hJDDZ83jRf8CuaY/pU92yEqv/FGqFf6H61L33dorzXXgRQVw==",
+      "path": "microsoft.extensions.diagnostics.healthchecks.entityframeworkcore/7.0.4",
+      "hashPath": "microsoft.extensions.diagnostics.healthchecks.entityframeworkcore.7.0.4.nupkg.sha512"
+    },
     "Microsoft.Extensions.FileProviders.Abstractions/7.0.0": {
       "type": "package",
       "serviceable": true,
@@ -3166,12 +3242,12 @@
       "path": "microsoft.extensions.filesystemglobbing/7.0.0",
       "hashPath": "microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Hosting.Abstractions/3.1.8": {
+    "Microsoft.Extensions.Hosting.Abstractions/7.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7ZJUKwPipkDvuv2KJPZ3r01wp2AWNMiYH+61i0dL89F7QICknjKpWgLKLpTSUYFgl77S3b4264I6i4HzDdrb2A==",
-      "path": "microsoft.extensions.hosting.abstractions/3.1.8",
-      "hashPath": "microsoft.extensions.hosting.abstractions.3.1.8.nupkg.sha512"
+      "sha512": "sha512-43n9Je09z0p/7ViPxfRqs5BUItRLNVh5b6JH40F2Agkh2NBsY/jpNYTtbCcxrHCsA3oRmbR6RJBzUutB4VZvNQ==",
+      "path": "microsoft.extensions.hosting.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.hosting.abstractions.7.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Identity.Core/7.0.4": {
       "type": "package",
