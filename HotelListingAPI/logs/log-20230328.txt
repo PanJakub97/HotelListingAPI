@@ -1,0 +1,21 @@
+2023-03-28 20:18:59.668 +02:00 [INF] Now listening on: https://localhost:7236
+2023-03-28 20:18:59.694 +02:00 [INF] Now listening on: http://localhost:5246
+2023-03-28 20:18:59.696 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-28 20:18:59.696 +02:00 [INF] Hosting environment: Development
+2023-03-28 20:18:59.697 +02:00 [INF] Content root path: C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI
+2023-03-28 20:23:44.894 +02:00 [INF] Now listening on: https://localhost:7236
+2023-03-28 20:23:44.924 +02:00 [INF] Now listening on: http://localhost:5246
+2023-03-28 20:23:44.928 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-28 20:23:44.930 +02:00 [INF] Hosting environment: Development
+2023-03-28 20:23:44.930 +02:00 [INF] Content root path: C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI
+2023-03-28 20:25:05.189 +02:00 [INF] Login Attempt for user@example.com
+2023-03-28 20:25:05.191 +02:00 [INF] Looking for user with email user@example.com
+2023-03-28 20:25:07.553 +02:00 [INF] Token generated for user with email user@example.com | Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwianRpIjoiNjk4NDEyODYtZWFjNC00YTU3LWEwZWQtY2U3ZmU2OTI2ODU1IiwiZW1haWwiOiJ1c2VyQGV4YW1wbGUuY29tIiwidWlkIjoiNDUzZjMyYTMtMTExOC00ZDY0LTg1OWEtYWNhYTY1MTg2N2ZmIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiVXNlciIsImV4cCI6MTY4MDAyODUwNywiaXNzIjoiSG90ZWxMaXN0aW5nQVBJIiwiYXVkIjoiSG90ZWxMaXN0aW5nQVBJQ2xpZW50In0.0MUJjrlnNnT28hsCH_s1c0b_KK_lL8P23LwCXTSVYjs.
+2023-03-28 20:25:07.727 +02:00 [INF] HTTP POST /api/Account/login responded 200 in 2767.3165 ms
+2023-03-28 20:25:51.791 +02:00 [INF] HTTP GET /api/Hotels/GetAll responded 401 in 8.1990 ms
+2023-03-28 20:27:21.041 +02:00 [INF] HTTP GET /api/Hotels/GetAll responded 200 in 110.7944 ms
+2023-03-28 20:30:47.280 +02:00 [INF] Now listening on: https://localhost:7236
+2023-03-28 20:30:47.337 +02:00 [INF] Now listening on: http://localhost:5246
+2023-03-28 20:30:47.341 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-28 20:30:47.342 +02:00 [INF] Hosting environment: Development
+2023-03-28 20:30:47.345 +02:00 [INF] Content root path: C:\Users\User\Desktop\Kodowanie\055_HotelListingAPI\HotelListingAPI\HotelListingAPI
